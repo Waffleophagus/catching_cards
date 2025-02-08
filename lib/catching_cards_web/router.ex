@@ -18,7 +18,6 @@ defmodule CatchingCardsWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
-    get "/create", PageController, :create
   end
 
   # Other scopes may use custom stacks.
