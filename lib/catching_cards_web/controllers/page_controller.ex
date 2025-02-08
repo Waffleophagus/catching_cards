@@ -6,4 +6,8 @@ defmodule CatchingCardsWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false)
   end
+
+  def create(conn, _params) do
+  render(conn, :create)
+  end
 end
